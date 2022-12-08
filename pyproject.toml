@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "project"
+version = "0.1.0"
+description = ""
+authors = ["pyshen <pyshen.watson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.2"
+matplotlib = "^3.6.2"
+bar-chart-race = "^0.1.0"
+wget = "^3.2"
+tqdm = "^4.64.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.17.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
