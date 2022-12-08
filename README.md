@@ -34,6 +34,9 @@
 1. 使用pip安裝 `wget` 和 `bar-chart-race`
 1. 執行 `main.ipynb` (無法輸出中文字型)
 
+## 方法四: 使用GitHub Codespaces (不建議)
+1. 執行 `main.ipynb` (無法輸出中文字型)
+
 # 結果
 ## 中位數版本(較準確)
 ![median.gif](./output/median.gif "median.gif")
